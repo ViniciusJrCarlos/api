@@ -1,3 +1,20 @@
+<form>
+
+  <label>Curso</label>
+  <input type="text" name="nomeCurso" [(ngModel)]="curso.nomeCurso">
+  <br>
+
+  <label>Valor</label>
+  <input type="text" name="valorCurso" [(ngModel)]="curso.valorCurso">
+  <br>
+
+  <button (click)="cadastrar(this.cadastrar">Cadastrar</button>
+  <button (click)="alterar(this.curso)">Alterar</button>
+  <button (click)="excluir(this.curso)">Excluir</button>
+
+</form>
+
+
 <!-- tabela-->
 
 <table border="1">

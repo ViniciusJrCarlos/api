@@ -2,7 +2,7 @@ export class Curso {
 
   //atributos
   //constructor() { }
-  nomeCurso:string; valorCurso:number; idCurso?:number;
+  nomeCurso!: string; valorCurso!:number; idCurso!:number;
 
 
 

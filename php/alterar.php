@@ -27,7 +27,7 @@ $curso = [
 
 //$curso = (json_encode(['curso'] => $curso));
 
-json_encode(['curso'=>$curso]);
+json_encode(['cursos'=>$curso]);
 
 //$extrair2 = json_encode((['curso']=>$extrair2));
 ?>
